@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <section>
+        <main class="numButton">
+        <p id="displayBox"></p>
+            <div>
+                <button onclick="functionDel()" class="deleteButton" style="color: #fff;">DE</button>
+                <button onclick="functionClear()" class="clearButton" style="color: #fff;">AC</button>
+                <button onclick="functionBracketOpen()">*(</button>
+                <button onclick="functionBracketClose()">)</button>
+            </div>
+            <div class="p-10">
+                <button onclick="function7()">7</button>
+                <button onclick="function8()">8</button>
+                <button onclick="function9()">9</button>
+                <button onclick="functionDivide()">/</button>
+            </div>
+            <div class="p-10">
+                <button onclick="function4()">4</button>
+                <button onclick="function5()">5</button>
+                <button onclick="function6()">6</button>
+                <button onclick="functionMultiply()">x</button>
+            </div>
+            <div>
+                <button onclick="function1()">1</button>
+                <button onclick="function2()">2</button>
+                <button onclick="function3()">3</button>
+                <button onclick="functionMinus()">-</button>
+            </div>
+            <div>
+                <!-- <button onclick="functionPower()">X<sup>x</sup></button> -->
+                <button onclick="functionDecimal()">.</button>
+                <button onclick="function0()">0</button>
+                <button onclick="functionAdd()">+</button>
+                <button onclick="functionTotal()">=</button>
+            </div>
+        </main>
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

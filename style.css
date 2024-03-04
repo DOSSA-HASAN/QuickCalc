@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #010101;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+main{
+    border: 1px solid #686464;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button{
+    border-radius: 50%;
+    border: none;
+    background-color: #ff9900;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.deleteButton, .clearButton{
+    background-color: #6d6c6c;
+}
+
+#displayBox{
+    width: 322px;
+    word-wrap:break-word;
+    height: auto;
+    color: #fff;
+    padding: 10px 10px 40px 10px;
+    font-size: 24px;
+    border-bottom: 1px solid #686464;
+}
